@@ -1,3 +1,16 @@
+## Json Mock server
+
+# Tools Required
+ * Vscode
+ * Nodejs
+
+# Installation
+ * npm install json-server -g
+
+# Code
+ * Add new js file using faker or casual
+
+
 //Programmatically create 1000 users
 "test":"json-server users.js",
 
