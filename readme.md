@@ -1,13 +1,13 @@
-## Json Mock server
+# Json Mock server
 
-# Tools Required
+## Tools Required
  * Vscode
  * Nodejs
 
-# Installation
+## Installation
  * npm install json-server -g
 
-# Code
+## Code
  * Add new js file using faker or casual
 
 
