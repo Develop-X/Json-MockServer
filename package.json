@@ -4,7 +4,8 @@
   "description": "mockserver",
   "main": "index.js",
   "scripts": {
-    "test": "json-server --watch db.json --port 3004",
+    "test": "mocha",
+    "json:Server:db": "json-server --watch db.json --port 3004",
     "json:server": "json-server --watch db.json",
     "json:server:remote": "json-server https://jsonplaceholder.typicode.com/db"
   },
@@ -14,14 +15,10 @@
   },
   "author": "Dipjyoti Metia",
   "license": "ISC",
-  "devDependencies": {
-    "grunt": "~1.0.2",
-    "grunt-run": "^0.8.1",
+  "dependencies": {
     "json-server": "^0.14.0",
     "faker": "^4.1.0",
-    "casual": "^1.5.19"
-  },
-  "dependencies": {
-    "macaca-cli": "^2.1.3"
+    "casual": "^1.5.19",
+    "mocha": "5.2.0"
   }
 }
