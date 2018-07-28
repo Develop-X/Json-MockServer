@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "8.10"
+notifications:
+    slack: code-coding:cmvTf6024EeV1eb52h0k85e9  
 install:
   - npm install
 # script:
